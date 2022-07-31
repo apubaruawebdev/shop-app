@@ -1,0 +1,69 @@
+/*======================================
+            poppins font 
+=======================================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --shadow-one: 0 10px 10px 20px rgb(176 184 214 / 9%), 10px 10px 15px -5px #b0b8d6;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f6f9;
+}
+
+.title{
+    background: #4454c3;
+    padding: 10px;
+    width: 400px;
+    color: #fff ;
+    font-weight: 500;
+    border-radius: 8px;
+    box-shadow: var(--shadow-one);
+}
+.card{
+    box-shadow: var(--shadow-one);
+}
+.btn-primary{
+    background-color: #4454c3 !important;
+}
+table{
+    border-bottom: 0 !important;
+}
+tr{
+    vertical-align: middle;
+}
+tbody, td, tfoot, th, thead, tr {
+    border-color: #E4E6EF !important;
+    border-bottom-width: 1px !important;
+    border-bottom-style: dashed !important;
+}
+.view-btn{
+    background-color: #45aaf2;
+    color: #fff;
+}
+.edit-btn{
+    background-color: #886cc0;
+    color: #fff;
+}
+.delete-btn{
+    background-color: #fc2e53;
+    color: #fff;
+}
+.img-style{
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product_view_content img{
+    width: 250px;
+    height: 250px;
+    border: 10px solid #fff;
+    border-radius: 50%;
+}
+i{
+    pointer-events: none;
+}
